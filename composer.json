@@ -1,0 +1,28 @@
+{
+    "name": "wonail/yii2-markdown",
+    "description": "Markdown Widget for Yii2",
+    "keywords": [
+        "yii2",
+        "yii2 markdown editor",
+        "yii2 markdown widget",
+        "wonail"
+    ],
+    "license": "BSD-3-Clause",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "E-Kevin",
+            "email": "e-kevin@qq.com"
+        }
+    ],
+    "homepage": "https://github.com/Wonail/yii2-markdown",
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/simplemde": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wonail\\markdown\\": ""
+        }
+    }
+}
